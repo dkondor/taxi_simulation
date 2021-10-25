@@ -2,7 +2,7 @@
 
 Simulate simple model of taxi dispatching, measure the ratio of served / rejected trips, waiting times and potentially other statistics.
 
-Example usage is included in the Jupyter notebook. Below are a set of steps to download and prepare the necessary data. Example dataset available at https://zenodo.org/record/5594338
+Example usage is included in the Jupyter notebook. Below are a set of steps to download and prepare the necessary data. Example dataset available at https://zenodo.org/record/5596545
 
 ## 1. Download the code and compile it
 
@@ -38,12 +38,12 @@ Download and unzip the travel time matrix, either with the following commands:
 ```
 mkdir data
 cd data
-wget https://zenodo.org/record/5594338/files/nyc_travel_times.zip
+wget https://zenodo.org/record/5596545/files/nyc_travel_times.zip
 unzip nyc_travel_times.zip
 cd ..
 ```
 or manually from the following link:  
-https://zenodo.org/record/5594338/files/nyc_travel_times.zip  
+https://zenodo.org/record/5596545/files/nyc_travel_times.zip  
 and unzip it in a `data` subdirectory.
 
 Download the set of trips and additional necessary data using the scripts [download_trips_3weeks.sh](download_trips_3weeks.sh) (only three weeks of example data needed) or [download_trips_all.sh](download_trips_all.sh) (one year data). These can be run directly from the main directory, e.g.:
